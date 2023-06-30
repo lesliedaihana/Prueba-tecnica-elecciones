@@ -19,6 +19,7 @@ String sal=(String)dato.getAttribute("varsesion2");
   <title>Ingreso de datos</title>
    <!-- Google Font: Source Sans Pro -->
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+   
    <!-- Font Awesome Icons -->
    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
    <!-- Theme style -->
@@ -147,10 +148,10 @@ String sal=(String)dato.getAttribute("varsesion2");
     
 </section>
  
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!--  <script src="jquery.js"></script>-->
     <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<!--<script src="plugins/jquery/jquery.min.js"></script>-->
 <!-- Bootstrap 4 -->
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
