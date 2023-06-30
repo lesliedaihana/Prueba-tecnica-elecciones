@@ -106,7 +106,7 @@ public class Servletlogin extends HttpServlet {
 //                            out.print("success");
 
                          //   request.setAttribute("msje","¡Bienvenido!");
-                       JOptionPane.showMessageDialog(null, "Datos correctos");
+                      // JOptionPane.showMessageDialog(null, "Datos correctos");
                         response.sendRedirect("Formeleccion.jsp");
                           HttpSession sesion=request.getSession();
                           sesion.setAttribute("varsesion", id );
@@ -123,7 +123,8 @@ public class Servletlogin extends HttpServlet {
 
                           //request.setAttribute("msje","Datos incorrectos");
                         JOptionPane.showMessageDialog(null, "Datos incorrectos");
-                        response.sendRedirect("index.jsp");
+                        //response.sendRedirect("index.jsp");
+                         response.sendRedirect("seetalertguardados.js");
                      }
                       
             }        

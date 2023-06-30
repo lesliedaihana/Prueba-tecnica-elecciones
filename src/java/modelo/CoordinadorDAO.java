@@ -19,7 +19,7 @@ public class CoordinadorDAO {
     ResultSet rs;
     
     public ArrayList<Coordinador> coordinadordao(Coordinador lo){
-        JOptionPane.showMessageDialog(null, lo.getEmailCoor()+"..."+ lo.getContraCoor());
+        //JOptionPane.showMessageDialog(null, lo.getEmailCoor()+"..."+ lo.getContraCoor());
       ArrayList<Coordinador>lista=new ArrayList<>();
         try {
             ps=cnn.prepareStatement("SELECT * FROM Coordinador WHERE EmailCoor = ? AND ContraCoor = ?");

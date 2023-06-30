@@ -134,7 +134,7 @@ String sal=(String)dato.getAttribute("varsesion2");
                    
     
                     <div class="card-footer">
-                      <button type="submit"  name="btnins" class="btn btn-primary btnhover">Guardar</button>
+                      <button type="submit" id="btnins" name="btnins" class="btn btn-primary btnhover">Guardar</button>
                     </div>
                   </form>
                 </div>
@@ -157,6 +157,27 @@ String sal=(String)dato.getAttribute("varsesion2");
 <script src="dist/js/adminlte.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="sweetalert.js"></script>
+<!-- Asegúrate de tener SweetAlert y jQuery correctamente importados -->
+
+<!--<script>
+$(document).ready(function() {
+  $("#btnins").click(function(e) {
+    e.preventDefault();
+
+    // Realiza la petición POST al servlet
+    $.post("Servletinsertar", function(response) {
+      if (response === "success") {
+        Swal.fire("Éxito", "Los datos han sido guardados exitosamente", "success");
+      } else {
+        Swal.fire("Error", "Ha ocurrido un error al guardar los datos", "error");
+      }
+    });
+  });
+});
+
+</script>-->
+
+
 
 </body>
 </html>

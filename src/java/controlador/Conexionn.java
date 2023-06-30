@@ -13,12 +13,12 @@ public class Conexionn {
         try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException ex) {
-            System.err.println("Error en drives" + ex);
+      //      System.err.println("Error en drives" + ex);
         }
         try {
-            JOptionPane.showMessageDialog(null, "Conexion ok");
+            //JOptionPane.showMessageDialog(null, "Conexion ok");
             cnn = DriverManager.getConnection("jdbc:mysql://localhost/dbelecciones", "root", "1234");
-            JOptionPane.showMessageDialog(null, "Conexion ok");
+            //JOptionPane.showMessageDialog(null, "Conexion ok");
         } catch (SQLException ex) {
             System.out.println("Error en url" + ex);
            JOptionPane.showMessageDialog(null, "Error en conexion" + ex);

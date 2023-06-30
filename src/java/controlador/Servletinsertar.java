@@ -79,14 +79,19 @@ public class Servletinsertar extends HttpServlet {
          y=usudao.insertareleccion(eleccion);
          
          if(y>0){
-            
              JOptionPane.showMessageDialog(null,"Los datos han sido guardados exitosamente");
+//             response.setContentType("application/json");
+//            response.setCharacterEncoding("UTF-8");
+//            response.getWriter().write(new Gson().toJson("success"));
+             
            response.sendRedirect("Formeleccion.jsp");
 
          }
          else{
-             
-             JOptionPane.showMessageDialog(null, "Ha ocurrido un error al guardar los datos");
+            JOptionPane.showMessageDialog(null, "Ha ocurrido un error al guardar los datos");
+//            response.setContentType("application/json");
+//            response.setCharacterEncoding("UTF-8");
+//            response.getWriter().write(new Gson().toJson("error"));
              response.sendRedirect("Formeleccion.jsp");
          }
     

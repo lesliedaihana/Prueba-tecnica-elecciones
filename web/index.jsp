@@ -88,7 +88,9 @@
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
 <!-- Page specific script -->
+
 <script>
+    
 $(function () {
   $.validator.setDefaults({
     submitHandler: function () {
@@ -134,8 +136,7 @@ $(function () {
   });
 });
 </script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="sweetalert.js"></script>
+
 </body>
 </html>
  
