@@ -1,0 +1,10 @@
+
+  .btnhover:hover {
+    border-color: black;
+    transform: scale(1.1); 
+    background-color: #6cfff3; 
+    color: black;
+   
+  }
+
+  
