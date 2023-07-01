@@ -83,7 +83,7 @@ public class Servletinsertar extends HttpServlet {
 //             response.setContentType("application/json");
 //            response.setCharacterEncoding("UTF-8");
 //            response.getWriter().write(new Gson().toJson("success"));
-             
+             request.setAttribute("msje", "Los datos han sido guardados exitosamente");
            response.sendRedirect("Formeleccion.jsp");
 
          }

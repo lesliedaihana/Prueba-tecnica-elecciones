@@ -88,7 +88,7 @@
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
 <!-- Page specific script -->
-
+<script src="sweetalert.js" type="text/javascript"></script>
 <script>
     
 $(function () {
